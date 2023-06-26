@@ -1,8 +1,30 @@
 *{
     border: red 1px solid;
+    
 }
 
-h1 h2{
-    font-family: 'Red Hat Display', Montserrat, sans serif;
+h1, h2, p{
+    font-family: 'Red Hat Display', Montserrat, 'sans serif';
+    color: hsl(223, 47%, 23%);
+    text-align: center;
 }
 
+h1 {
+    font-weight: 700px;
+}
+
+h2 {
+    font-weight: 500px;
+}
+
+p {
+    font-weight: 300px;
+}
+
+main {
+    max-width: 375px;
+}
+
+.hero{
+    max-width: 375px;
+}
