@@ -3,6 +3,15 @@
     
 }
 
+body {
+
+    background-image: url("./images/pattern-background-desktop.svg") ;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 98%);
+    background-size: contain;
+}
+
+
 h1, h2, p{
     font-family: 'Red Hat Display', Montserrat, 'sans serif';
     color: hsl(223, 47%, 23%);
@@ -23,8 +32,11 @@ p {
 
 main {
     max-width: 375px;
+    border-radius: 20px;
+    background-color: white;
 }
 
 .hero{
     max-width: 375px;
+    border-radius: 20px 20px 0px 0px;
 }
