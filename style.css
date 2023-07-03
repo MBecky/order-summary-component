@@ -7,7 +7,7 @@ body {
 
     background-image: url("./images/pattern-background-desktop.svg") ;
     background-repeat: no-repeat;
-    background-color: hsl(225, 100%, 98%);
+    background-color: hsl(225, 100%, 94%);
     background-size: contain;
 }
 
@@ -34,9 +34,29 @@ main {
     max-width: 375px;
     border-radius: 20px;
     background-color: white;
+    display:flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top:0;bottom:0;
+    left:0;right:0;
 }
 
 .hero{
     max-width: 375px;
     border-radius: 20px 20px 0px 0px;
+}
+
+.text {
+    padding: 0px 20px 0px 20px;
+}
+
+.pricebox{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
 }
